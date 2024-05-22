@@ -1,0 +1,242 @@
+head {
+ margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  box-sizing: border-box;
+  }
+.body{
+   margin:0;
+   padding: 0;
+   font-family: 'Roboto',san-serif;
+   font-weight: 400;
+   font-size: 1.1em;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* head .icon{
+  background: #000;
+  width:100%;
+  height: 100%;
+} */
+a,a:hover,a:active,a:focus{
+    text-transform: none;
+    color:inherit;
+}
+/* top section */
+ .top-nav{
+   width:100%;
+   height: 100px;
+}
+.top-nav .top-nav-left{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.top-nav .top-nav-right{
+    position:absolute;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    right:0;
+    width:100%;
+    margin-top: 17px;
+    padding-right:24px;
+
+}
+#signUp{
+    padding:0 15px ;
+    min-height:40px;
+    margin: 10px 20px;
+    color:#fff;
+    border-radius: 25px;
+    /* min-height:40px; */
+    font-size: 0.95rem;
+    font-weight:700;
+    background-color: hsl(0, 86%, 52%);
+    border:none;
+}
+#sign-btn{
+    padding:0 15px;
+    background-color: #fff;
+    color: rgb(77,77,77);
+    border:none;
+    border-radius: 25px;
+    min-height:40px;
+    font-size: 0.95rem;
+    font-weight:700;
+}
+
+#header-logo{
+    width:225px;
+    height: auto;
+    padding-top: 2%;
+}
+/* Heading section */
+.top-heading{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    height:200px;
+    /* color: rgb(255, 255, 255); */
+    /* text-align: center; */
+     /* max-width: 750px; */
+}
+.strap{
+    text-align: center;
+    /* max-width:670px; */
+    /* font-size:2rem; */
+    /* font-weight:700; */
+    margin-top:150px;
+    font: TT Norms;
+    font-size: 40px;
+    font-weight:700;
+    line-height: 40px;
+    letter-spacing:  -0.01;
+    text-decoration: var(--usage-type-display-large-text-decoration);
+    text-transform: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    /* 
+    flex-direction:column;
+    width:100%;
+    height:97vh;
+    color:#fff;
+    background-size: cover;
+    background-repeat:no-repeat; */
+   
+    background-position: center;
+    background-size: cover;
+    padding: 0px 8px;
+    width: 100%;
+    height: 67vh;
+    position: relative;
+    background-repeat:no-repeat;
+    background-image: url('images/doordashmain.jpeg');
+}
+/* search section */
+.top-search{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height: 100px;
+}
+.searchbar-holder{
+    position:relative;
+}
+#searchbar{
+    margin-top:20px;
+    background-color: #fff;
+    border-radius: 25px;
+    border:1px solid white;
+    text-align:left;
+    height: 40px;
+    outline: none;
+    min-width:360px;
+    padding-left: 40px;
+    font-family:'Roboto',sans-serif;
+    font-size:1.1rem;
+}
+/* V78886069  60310835*/
+#searchbar-submit{
+  position: absolute;
+  height:38px;
+  width:38px;
+  background-color: red;
+  border:1px transparent;
+  border-radius: 38px;
+  right:0;
+  margin-right:4px;
+  margin-top:23px;
+  font-size:1.4rem;
+  color:#fff;
+  cursor: pointer;
+  outline: none;
+} 
+/* section sec0nd */
+.second{
+    width:100%;
+    background-color: #fff;
+}
+.second{
+    width :100%;
+    background-color: #fff;
+}
+.second h2{
+    margin-top: 0;
+}
+.second a{
+    font-weight:800;
+    color: red;
+}
+.second-top{
+    display:flex;
+    margin-top:130px;
+    height:430px;
+}
+.second-top-left{
+    padding: 0 0 0 70px;
+    text-align: center;
+    width:34%;
+    height:100%
+}
+.second-top-mid{
+  padding: 0 0 0 70px;
+  text-align: center;
+  width:34%;
+  height:100%;
+}
+
+.second-top-right{
+    padding: 0 70px 70px;
+    text-align: center;
+    width:33%;
+    height:100%;
+}
+.mid-pics{
+    width:40%;
+    height:auto;
+}
+.second-bottom{
+    display: flex;
+    text-align:left;
+    height:40%;
+}
+.second-bot-left{
+    padding-top:80px;
+    max-width:40%;
+}
+.s-b-1{
+    padding: 0 65px;
+}
+.f1{
+    width: 120%;
+    height:auto;
+}
+#find-res-btn{
+    background-color: red;
+    border-radius: 25px;
+    width:160px;
+    min-height: 40px;
+    padding:0 15px;
+    color:white;
+    border:none;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+.mid-pic.grocery{
+    background-color: rgba(30, 30, 30, 0.6);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  -moz-box-pack: center;
+  place-content: center;
+  text-align: center;
+
+}
