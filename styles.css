@@ -1,0 +1,410 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "TTnorms-bold";
+  src: url("fonts/TTNorms-Bold.woff2");
+}
+
+@font-face {
+  font-family: "TTnorms-medium";
+  src: url("/fonts/TTNorms-Medium.woff2");
+}
+
+@font-face {
+  font-family: "TTnorms-regular";
+  src: url("fonts/TTNorms-Regular.woff2");
+}
+header{
+  background: transparent;
+  position: absolute;
+  display: flex;
+}
+.doordash{
+  margin-top: 0px;
+  margin-left: 850px;
+}
+.top-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.top-nav img{
+  width:225px;
+  /* margin-left: -30px; */
+  margin-top: 10px;
+  /* background-color: aqua; */
+}
+.nav-right{
+  display: flex;
+  margin-left: 90%;
+  margin-top: -40px;
+  justify-content: space-between;
+  max-width: 177px;
+   padding: 0;
+
+}
+.nav-right button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  min-height: 40px;
+  width: 80px;
+  border-radius: 24px;
+  font-family: "TTnorms-bold" !important;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 23px;
+}
+.nav-right .signin{
+    /* justify-content: flex-start; */
+    border-radius: 24px;
+    border: medium;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(235, 23, 0);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    color: rgb(255, 255, 255);
+  
+}
+.nav-right .signup{
+  width:85px;
+  height: 10px;
+  background: white;
+  border: 0;
+  color: rgb(73, 73, 73);
+  font-size: 17px;
+  letter-spacing: 0.04ch;
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:1085px;
+  /* background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.top img{
+  object-fit: cover;
+  height: 100%;
+}
+
+/* .doordash{
+ 
+  margin-top: 0px;
+}
+.top-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.top-nav img{
+  width:225px;
+  margin-left: -30px;
+  margin-top: 10px;
+}
+.nav-right{
+  display: flex;
+  margin-left: 89%;
+  margin-top: -40px;
+  justify-content: space-between;
+  max-width: 177px;
+  margin: 0;
+   padding: 0;
+
+}
+.nav-right button{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+  min-height: 40px;
+  width: 80px;
+  border-radius: 24px;
+  font-family: "TTnorms-bold" !important;
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  line-height: 23px;
+}
+.nav-right .signin{
+   
+    border-radius: 24px;
+    border: medium;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(235, 23, 0);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    color: rgb(255, 255, 255);
+  
+}
+.nav-right .signup{
+  width:85px;
+  height: 10px;
+  background: white;
+  border: 0;
+  color: rgb(73, 73, 73);
+  font-size: 17px;
+  letter-spacing: 0.04ch;
+} */
+
+.center{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+h2{
+  color: white;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "TTnorms-bold" !important;
+  /* font-weight: 700; */
+  letter-spacing: -0.01;
+  margin-top: 230px;
+  /* margin-left:-100px; */
+}
+.address{
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  width:400px;
+  height: 54px;
+  border-radius: 28px;
+
+}
+
+.address input{
+  border: none;
+  margin-left: 10px;
+  font-family: "TTnorms-medium";
+}
+.address .search{
+  height:39px;
+  width:39px;
+  background-color: red;
+  border:1px transparent;
+  border-radius: 39px;
+  right:0;
+  margin-left:52px;
+  margin-top:8px;
+  font-size:1.1rem;
+  color:#fff;
+}
+.address .search img{
+  color: #fff;
+}
+.address img{
+  width:25px;
+  margin-left: 20px;
+}
+.address .enter-addr{
+  font-size: 16px;
+}
+.sav-addr{
+  display: flex;
+  /* background-color: aqua; */
+  margin-top: 15px;
+  align-items: center;
+  padding: 0;
+}
+.sav-addr button{
+  width:200px;
+  background-color: #fff;
+  border: none;
+  height:32px;
+  border-radius: 30px;
+  font-size: 13.3333;
+  font-weight: 400;
+  font-family: "TTnorms-bold" !important;
+}
+.sav-addr button i{
+  width: 16px;
+  height: 16px;
+  
+}
+/* main starts */
+.main{
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.main .top-main {
+  display: flex;
+  align-items: center;
+  /* max-width:1000px; */
+  flex-flow: row;
+   justify-content: space-between;
+   min-width: 700px;
+   max-width: 1000px;
+   margin-left: 500px;
+   margin-top: 100px;
+}
+.first{
+  /* display: flex; */
+  max-width: 250px;
+  flex-direction: row;
+}
+.picture img{
+  /* background-color: aqua; */
+  height: 154px;
+  width:154px;
+}
+.discript {
+  
+  margin-top: -200px;
+  width: 100%;
+  max-width: 250px;
+  margin-left:-30px;
+}
+.discript h2{
+  font-family:"TTnorms-bold" !important ;
+  color: black;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.discript h3{
+   margin-top: 10px;
+  font-size: 18px;
+  font-family: "TTnorms-medium" !important;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  /* display: block; */
+}
+.discript button{
+  background: transparent;
+  border:none;
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-left:30px ;
+  margin-top: 12px;
+}
+.main2{
+  margin: 0;
+  padding: 100px;
+}
+.top-main .find-rest{
+  /* background-color: aqua; */
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   background-color: #fff;
+   max-width: 70%;
+   min-width: 1000px;
+   margin-left:300px;
+   gap:50px
+}
+.find-rest .main-head{
+   margin-top: 0;
+   /* gap:20px; */
+}
+.find-rest h2{
+  color: black;
+  display: flex;
+  max-width: 90%;
+  min-width: 20px;
+  font-family: "TTNorms-bold" !important;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01px;
+  font-weight: 500;
+  margin-top: -100px;
+  text-align: left;
+}
+.find-rest h5{
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: "TTnorms-bold" !important;
+  font-weight:00;
+  text-align: left;
+}
+.find-rest span{
+  font-family: "TTnorms-medium" !important;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  margin-top: 20px;
+  padding: 0px;
+  /* background-color: aquamarine; */
+}
+.find-rest button{
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  background-color: #d91400ff;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  /* width: 100%; */
+  font-family: "TTnorms-bold" !important;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+}
+.find-rest img{
+  margin-left: 10px;
+
+}
+.mid-main{
+  min-width: 604px;
+  max-width: 1491px;
+  background-color: aquamarine;
+}
+.daspass{
+  margin:0;
+}
+.daspass .sec-head{
+
+}
+/*
+}
+.center .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sav-addr{
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 400px;
+  margin-left: -600px;
+
+}
+ */
