@@ -19,31 +19,38 @@
 header{
   background: transparent;
   position: absolute;
+  /* left:-0;
+  right: 0;
+a  top: 0; */
   display: flex;
+  /* width: 100%; */
 }
-.doordash{
+/* .doordash{
   margin-top: 0px;
   margin-left: 850px;
-}
+} */
 .top-nav{
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: aqua; */
+  
 }
 .top-nav img{
-  width:225px;
-  /* margin-left: -30px; */
-  margin-top: 10px;
+  width:222.6px;
+  margin-left: 848.499px;
+  margin-top: 19px;
   /* background-color: aqua; */
 }
 .nav-right{
   display: flex;
-  margin-left: 90%;
-  margin-top: -40px;
+  /* margin-left: 90%; */
+  margin-top: 16px;
   justify-content: space-between;
-  max-width: 177px;
+  max-width: px;
    padding: 0;
+   margin-left: 653px;
+   gap:9px
 
 }
 .nav-right button{
@@ -52,17 +59,19 @@ header{
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  padding: 0;
   min-height: 40px;
-  width: 80px;
+  width: 77px;
   border-radius: 24px;
   font-family: "TTnorms-bold" !important;
   font-size: 18px;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  font-weight: 700;
+  font-weight: 100;
   line-height: 23px;
+  padding: 8px;
+
+
 }
 .nav-right .signin{
     /* justify-content: flex-start; */
@@ -76,6 +85,8 @@ header{
     background-color: rgb(235, 23, 0);
     box-shadow: transparent 0px 0px 0px 1px inset;
     color: rgb(255, 255, 255);
+    padding: 8px 8px 8px 8px;
+    /* margin: ; */
   
 }
 .nav-right .signup{
@@ -92,7 +103,7 @@ header{
   display: flex;
   flex-direction: column;
   width:100%;
-  height:1085px;
+  height:674px;
   /* background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,76 +112,8 @@ header{
 
 .top img{
   object-fit: cover;
-  height: 100%;
+  height: 96.5%;
 }
-
-/* .doordash{
- 
-  margin-top: 0px;
-}
-.top-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
-.top-nav img{
-  width:225px;
-  margin-left: -30px;
-  margin-top: 10px;
-}
-.nav-right{
-  display: flex;
-  margin-left: 89%;
-  margin-top: -40px;
-  justify-content: space-between;
-  max-width: 177px;
-  margin: 0;
-   padding: 0;
-
-}
-.nav-right button{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 100%;
-  padding: 0;
-  min-height: 40px;
-  width: 80px;
-  border-radius: 24px;
-  font-family: "TTnorms-bold" !important;
-  font-size: 18px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  line-height: 23px;
-}
-.nav-right .signin{
-   
-    border-radius: 24px;
-    border: medium;
-    cursor: pointer;
-    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    user-select: none;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgb(235, 23, 0);
-    box-shadow: transparent 0px 0px 0px 1px inset;
-    color: rgb(255, 255, 255);
-  
-}
-.nav-right .signup{
-  width:85px;
-  height: 10px;
-  background: white;
-  border: 0;
-  color: rgb(73, 73, 73);
-  font-size: 17px;
-  letter-spacing: 0.04ch;
-} */
-
 .center{
   display: flex;
   flex-flow: column;
@@ -181,26 +124,32 @@ h2{
   font-size: 40px;
   line-height: 40px;
   font-family: "TTnorms-bold" !important;
-  /* font-weight: 700; */
+  font-weight: 200;
   letter-spacing: -0.01;
-  margin-top: 230px;
+  margin-top: -373px;
+  max-width: 7500px;
   /* margin-left:-100px; */
 }
 .address{
   display: flex;
   background-color: white;
-  margin-top: 20px;
-  width:400px;
-  height: 54px;
+  margin-top: 24.8px;
+  width:409px;
+  height: 55.9px;
   border-radius: 28px;
-
+  margin-left: px;
 }
-
+.address:hover{
+  border:blue;
+}
 .address input{
   border: none;
-  margin-left: 10px;
-  font-family: "TTnorms-medium";
+  margin-left: 13px;
+  font-family: "TTnorms-medium"!important;
+  font-size: 16px;
+  line-height: 22px;
 }
+
 .address .search{
   height:39px;
   width:39px;
@@ -208,17 +157,20 @@ h2{
   border:1px transparent;
   border-radius: 39px;
   right:0;
-  margin-left:52px;
+  margin-left:56px;
   margin-top:8px;
   font-size:1.1rem;
   color:#fff;
 }
+
 .address .search img{
   color: #fff;
 }
 .address img{
-  width:25px;
-  margin-left: 20px;
+  width:24px;
+  margin-left: 19.5px;
+  height: 24px;
+  margin-top: 15px;
 }
 .address .enter-addr{
   font-size: 16px;
@@ -226,7 +178,7 @@ h2{
 .sav-addr{
   display: flex;
   /* background-color: aqua; */
-  margin-top: 15px;
+  margin-top: 15.5px;
   align-items: center;
   padding: 0;
 }
@@ -251,17 +203,17 @@ h2{
   padding: 0;
   justify-content: center;
   align-items: center;
+  margin-left: 0px;
 }
 .main .top-main {
   display: flex;
   align-items: center;
-  /* max-width:1000px; */
   flex-flow: row;
-   justify-content: space-between;
    min-width: 700px;
    max-width: 1000px;
-   margin-left: 500px;
-   margin-top: 100px;
+   margin-left: 490px;
+   /* margin-top: 400px; */
+   gap:120px
 }
 .first{
   /* display: flex; */
@@ -272,13 +224,15 @@ h2{
   /* background-color: aqua; */
   height: 154px;
   width:154px;
+  margin-top: 80px;
+  margin-left:-9px ;
 }
 .discript {
   
-  margin-top: -200px;
+ margin-top:375px ;
   width: 100%;
-  max-width: 250px;
-  margin-left:-30px;
+  max-width: 290px;
+  margin-left:-40px;
 }
 .discript h2{
   font-family:"TTnorms-bold" !important ;
@@ -310,37 +264,42 @@ h2{
 }
 .main2{
   margin: 0;
-  padding: 100px;
+  padding: 0;
 }
 .top-main .find-rest{
+  padding: 100px;
+  margin-top: 100px;
   /* background-color: aqua; */
    display: flex;
    flex-flow: row;
    justify-content: center;
    align-items: center;
-   margin-top: 30px;
+   margin-top: 50px;
    background-color: #fff;
-   max-width: 70%;
+   max-width: 62%;
    min-width: 1000px;
-   margin-left:300px;
-   gap:50px
+   margin-left:280px;
+   gap:30px
 }
 .find-rest .main-head{
    margin-top: 0;
    /* gap:20px; */
+   margin-top: 80px;
+   
 }
 .find-rest h2{
   color: black;
   display: flex;
   max-width: 90%;
   min-width: 20px;
-  font-family: "TTNorms-bold" !important;
+  font-family: "TTnorms-bold" !important;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.01px;
   font-weight: 500;
   margin-top: -100px;
   text-align: left;
+  margin-bottom: 20px;
 }
 .find-rest h5{
   margin-top: 20px;
@@ -355,14 +314,14 @@ h2{
   font-size: 16px;
   line-height: 22px;
   text-align: left;
-  margin-top: 20px;
-  padding: 0px;
+  margin-top:0px;
+  padding:0px 0px 0px 0px;
   /* background-color: aquamarine; */
 }
 .find-rest button{
-  width: 150px;
-  height: 35px;
-  margin-top: 10px;
+  width: 145px;
+  height: 40px;
+  margin-top: 29px;
   background-color: #d91400ff;
   border: none;
   color: #fff;
@@ -380,31 +339,246 @@ h2{
   margin-left: 10px;
 
 }
+/* thes */
 .mid-main{
-  min-width: 604px;
-  max-width: 1491px;
-  background-color: aquamarine;
+  display: flex;
+  width: 100%;
+  background-color: rgb(254, 241, 238);
+   flex-direction: row;
+   height: 604px;
+   margin-top: -140px;
 }
 .daspass{
+  /* background-color: aqua; */
   margin:0;
+  margin-top: 80px;
+  margin-left: 360px;
+}
+.daspass .img{
+ /* margin-left: 400px; */
+ width: 100%;
+ 
+ 
+}
+.img img{
+  height: 500px;
 }
 .daspass .sec-head{
-
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  margin-left: 785px;
+  /* margin-top: 50px; */
+  
 }
-/*
+.sec-head h2{
+  max-width: 90%;
+  /* margin-top: -120px; */
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "TTnorms-bold" !important;
+  font-weight: 500;
+  color: black;
+  align-items: flex-end;
+  /* margin-left: 900px; */
+  width: 350px;
+  padding: 10px;
 }
-.center .heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.sec-head span{
+  display: flex;
+  padding: 10px;
+  width: 400px;
+  font-family:"TTnorms-medium" !important ;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
 }
-.sav-addr{
+.daspass button{
+  width: 125px;
+  height: 40px;
+  margin-top: 22px;
+  background-color: #d91400ff;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  /* width: 100%; */
+  font-family: "TTnorms-bold" !important;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+}
+  .mid-img{
+  display: flex;
+  width: 100%;
+  height: 550px;
+  /* background: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png"); */
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  border: none;
-  margin-top: 400px;
-  margin-left: -600px;
+  /* margin-left: 200px;  */
+  background-color: rgba(30, 30, 30, 0.6); 
+  /* margin-top:-10px ; */
+  /* background-color: aqua; */
+}
+   .img-content{
+    display: flex;
+    flex-flow: column;
+    /* background-color: aliceblue; */
+    position: relative;
+    margin-top: 500px;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: center;
+}
+ .img-content h2{
+     width: 350px;
+     align-items: center;
+     text-align: center;
+     padding: 20px;
+     font-family: "TTnorms-bold"!important;
+     font-size: 40px;
+     line-height: 40px;
+   }
+.img-content h4{
+  color: #fff;
+  font-family: "TTnorms-bold"!important;
+  font-size: 20px;
+  line-height: 24px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+}
+.img-content p{
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  font-family: "TTnorms-medium"!important;
+  filter: drop-shadow(rgba(0, 0, 0, 0.2) 0px 2px 8px);
+  width:530px;
+  text-align: center;
+  margin-top: 10px;
 
 }
- */
+.button button {
+  width: 125px;
+  height: 40px;
+  margin-top: 22px;
+  background-color: #d91400ff;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  /* width: 100%; */
+  font-family: "TTnorms-bold" !important;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main3{
+  margin: 0;
+}
+.stor .shop{
+  padding: 100px;
+  margin-top: 100px;
+  /* background-color: aqua; */
+   display: flex;
+   flex-flow: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   background-color: #fff;
+   max-width: 62%;
+   min-width: 1000px;
+   margin-left:240px;
+   gap:30px
+}
+.shop .head{
+  margin-top: 0;
+   /* gap:20px; */
+   margin-top: 80px;
+}
+.shop h2{
+  color: black;
+  display: flex;
+  max-width: 70%;
+  min-width: 20px;
+  font-family: "TTnorms-bold" !important;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.01px;
+  font-weight: 500;
+  margin-top: -200px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.shop img{
+  margin-top: -90px;
+  margin-left:-0px;
+  /* position: absolute; */
+}
+
+.shop span{
+  font-family: "TTnorms-medium" !important;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+}
+.shop button{
+  width: 95px;
+  height: 40px;
+  margin-top: 29px;
+  background-color: #d91400ff;
+  border: none;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  /* width: 100%; */
+  font-family: "TTnorms-bold" !important;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+}
+.four-pic{
+  display: flex;
+  background-color: rgb(254, 241, 238);
+  margin: 0;
+  padding: 0;
+  margin-top: -100px;
+  position: absolute;
+}
+.four-pic .first-pic{
+margin-top:500px;
+}
+.first-pic .gift-head{
+  justify-content: center;
+  background-color: rgb(254, 241, 238);
+  padding: 60px 20px 40px;
+}
+.gift-head h2{
+  /* margin-top: 200px; */
+  width:900px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: "TTnorms-bold"!important;
+}
+.first-pic .gifting{
+  display: flex;
+ margin-top: 100px;
+}
+.first-img {
+  display: flex;
+}
+.first-img img{
+  width:1000px;
+}
