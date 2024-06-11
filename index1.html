@@ -9,277 +9,391 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link type="image/png" sizes="32x32" rel="icon" href="https://cdn.doordash.com/static/img/favicon@2x.ico?dd-nonce">
 </head>
 
 <body>
-    <header>
-        <div class="doordash">
-            <div class="top-nav">
-                <img class="main-logo" src="images/DoorDash-logo.png">
-            </div>
-        </div>
-        <div class="nav-right">
-            <button class="signin"> Sign In</button>
-            <button class="signup">Sign Up</button>
-        </div>
-    </header>
+    <div class="container">
+        <div class="banner">
+            <header>
+                <div class="doordash">
+                    <div class="top-nav">
+                        <img class="main-logo" src="images/DoorDash-logo.png">
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <button class="signin"> Sign In</button>
+                    <button class="signup">Sign Up</button>
+                </div>
+            </header>
 
-    <div class="top">
-        <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png"
-            alt="">
-
-        <div class="center">
-            <h2>Discover restaurants and more near you.</h2>
-
-
-            <div class="address">
-                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWhpZGRlbj0idHJ1ZSIgY2xhc3M9InN0eWxlc19fU3R5bGVkSW5saW5lU3ZnLXNjLTEybDh2dmktMCBocFZ1aUQiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTAuNTI1NyAyMS4zNTE0TDEyIDIwTDEzLjQ3NDMgMjEuMzUxNEMxMy4wOTU1IDIxLjc2NDcgMTIuNTYwNiAyMiAxMiAyMkMxMS40Mzk0IDIyIDEwLjkwNDUgMjEuNzY0NyAxMC41MjU3IDIxLjM1MTRaTTEzLjI5NDkgMTguNDQ2M0MxMi41NDY0IDE5LjQwMzkgMTIgMjAgMTIgMjBDMTIgMjAgMTEuNDUzNSAxOS40MDM5IDEwLjcwNTEgMTguNDQ2M0M5LjA3OTE5IDE2LjM2NTggNi41IDEyLjU3OTIgNi41IDkuNDkyNDJDNi41IDYuNDU5MDQgOC45NjI0MyA0IDEyIDRDMTUuMDM3NiA0IDE3LjUgNi40NTkwNCAxNy41IDkuNDkyNDJDMTcuNSAxMi41NzkyIDE0LjkyMDggMTYuMzY1OCAxMy4yOTQ5IDE4LjQ0NjNaTTEzLjQ3NDMgMjEuMzUxNEMxMy40NzQzIDIxLjM1MTQgMTMuNDc0MyAyMS4zNTE0IDEyIDIwQzEwLjUyNTcgMjEuMzUxNCAxMC41MjU3IDIxLjM1MTQgMTAuNTI1NyAyMS4zNTE0TDEwLjUyMjcgMjEuMzQ4MkwxMC41MTc3IDIxLjM0MjdMMTAuNTAxOCAyMS4zMjUyTDEwLjQ0NzQgMjEuMjY0N0MxMC40MDE0IDIxLjIxMzMgMTAuMzM2MyAyMS4xMzk4IDEwLjI1NDggMjEuMDQ2MUMxMC4wOTE5IDIwLjg1ODkgOS44NjMwMSAyMC41OTAzIDkuNTkwMDQgMjAuMjU1M0M5LjA0NTg3IDE5LjU4NzMgOC4zMTc2NCAxOC42NDQxIDcuNTg1NjYgMTcuNTQ1NkM2Ljg1NzA1IDE2LjQ1MjIgNi4xMDE1MSAxNS4xNzA0IDUuNTIyNyAxMy44Mjc1QzQuOTUxNjkgMTIuNTAyNiA0LjUgMTAuOTk4NCA0LjUgOS40OTI0MkM0LjUgNS4zNTE4NyA3Ljg2MDQ2IDIgMTIgMkMxNi4xMzk1IDIgMTkuNSA1LjM1MTg3IDE5LjUgOS40OTI0MkMxOS41IDEwLjk5ODQgMTkuMDQ4MyAxMi41MDI2IDE4LjQ3NzMgMTMuODI3NUMxNy44OTg1IDE1LjE3MDQgMTcuMTQyOSAxNi40NTIyIDE2LjQxNDMgMTcuNTQ1NkMxNS42ODI0IDE4LjY0NDEgMTQuOTU0MSAxOS41ODczIDE0LjQxIDIwLjI1NTNDMTQuMTM3IDIwLjU5MDMgMTMuOTA4MSAyMC44NTg5IDEzLjc0NTIgMjEuMDQ2MUMxMy42NjM3IDIxLjEzOTggMTMuNTk4NiAyMS4yMTMzIDEzLjU1MjYgMjEuMjY0N0wxMy40OTgyIDIxLjMyNTJMMTMuNDgyMyAyMS4zNDI3TDEzLjQ3NzMgMjEuMzQ4MkwxMy40NzQzIDIxLjM1MTRaIiBmaWxsPSIjNzY3Njc2Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAxMUMxMi44Mjg0IDExIDEzLjUgMTAuMzI4NCAxMy41IDkuNUMxMy41IDguNjcxNTcgMTIuODI4NCA4IDEyIDhDMTEuMTcxNiA4IDEwLjUgOC42NzE1NyAxMC41IDkuNUMxMC41IDEwLjMyODQgMTEuMTcxNiAxMSAxMiAxMVpNMTIgMTNDMTMuOTMzIDEzIDE1LjUgMTEuNDMzIDE1LjUgOS41QzE1LjUgNy41NjcgMTMuOTMzIDYgMTIgNkMxMC4wNjcgNiA4LjUgNy41NjcgOC41IDkuNUM4LjUgMTEuNDMzIDEwLjA2NyAxMyAxMiAxM1oiIGZpbGw9IiM3Njc2NzYiLz48L3N2Zz4="
+            <div class="top">
+                <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png"
                     alt="">
-                <input class="enter-addr" id="enter-addr" placeholder="Enter delivery address" type="text" />
-                <!-- <input class="search" id ="searchbar-submit"type="button" value=""/> -->
-                <button class="search"><i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-            <div class="sav-addr">
-                <button class="saved" id="saved"><i class="fa-regular fa-user"></i> Sign in for saved address</button>
-            </div>
 
-        </div>
-    </div>
+                <div class="center">
+                    <h2>Discover restaurants and more near you.</h2>
 
-    <section class="main">
-        <div class="top-main">
-            <div class="first">
-                <div class="picture">
-                    <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg">
-                </div>
-                <div class="discript">
-                    <div class="info">
-                        <h2>Become a Dasher</h2>
-                        <h3> As a delive money,you'll make reliable money-working anytime,anywhere</h3>
-                    </div>
-                    <button class="btn">
-                        <span>Start earning</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="first">
-                <div class="picture">
-                    <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg">
-                </div>
-                <div class="discript">
-                    <div class="info">
-                        <h2>Become a Partner</h2>
-                        <h3>Grow your buisiness and reach new customers by partnering with us.</h3>
-                    </div>
-                    <button class="btn">
-                        <span>Sign up your store</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="first">
-                <div class="picture">
-                    <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="">
-                </div>
-                <div class="discript">
-                    <div class="info">
-                        <h2>Get the best DoorDash experience</h2>
-                        <h3>Experience the best your neighborhood has to offer,all in one app.</h3>
-                    </div>
-                    <button class="btn">
-                        <span>Get the appp</span>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- second-main -->
-    <div class="main2">
-        <div class="top-main">
-            <div class="find-rest">
-                <div class="main-head">
-                    <h2>Everything you crave, delivered.</h2>
-                    <h5 class="sub">Your favorite local restaurants</h5>
-                    <span class="text">Get a slice of pizza or the whole pie delivered,or pick up house lo mein from the
-                        Chinese takeout spot you've been meaning to try.</span>
-                    <br>
-                    <button> Find restaurants</button>
-                </div>
-                <div class="img">
-                    <img
-                        src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png">
-                </div>
-            </div>
-        </div>
-        <!-- </div> -->
-        <div class="mid-main">
-            <div class="daspass">
-                <div class="img">
-                    <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png"
-                        alt="">
-                </div>
-                <div class="sec-head">
-                    <h2>DashPass is delivery for less</h2>
-                    <span>
-                        Members get a $o delivery fee on DashPass orders. 5% back on pickup orders, and so much more.
-                        Plus,it's free for 30 days.
-                    </span>
-                    <br>
-                    <button>Get DashPass</button>
-                </div>
-            </div>
-        </div>
-        <!-- wed -->
 
-        <div class="mid-img">
-            <div class="img-content">
-                <h2>Get grocery and convenience store essentials</h2>
-                <h4>Grocery delivery,exactly how you want it.</h4>
-                <p> Shop from home and fill your cart with fresh produce, frozen entrees, deli delights, and more.</p>
-                <div class="button">
-                    <button>Shop Groceries</button>
-                </div>
-
-            </div>
-        </div>
-        <div class="main3">
-            <div class="stor">
-                <div class="shop">
-                    <div class="head">
-                        <h2>convenience stores at your doorstep.</h2>
-                        <span class="text">Stock up on snacks,household essentials, candy,or vitamins - all delivered in
-                            under an hour.</span>
-                        <br>
-                        <button> Shop now</button>
-                    </div>
-                    <div class="img">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/convenience_desktop.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="four-pic">
-
-        <div class="gift-head">
-            <h2>Helping you with to-dos and gifting</h2>
-        </div>
-        <!-- thesd -->
-        <div class="gifting">
-            <div class="top-two">
-                <div class="first-img">
-                    <div class="img1">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/flowers_desktop.png">
-                    </div>
-                    <div class="img1-disc">
-                        <h2>Return package from home</h2>
-                        <p>Request a package with just a few taps and get your returns dropped off carriers like
-                            UPS,
-                            FedEx, and USPS. </p>
-                        <button>Try Package Pickup</button>
-                    </div>
-                </div>
-
-                <div class="second-img">
-                    <div class="img2">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/flowers_desktop.png">
-                    </div>
-                    <div class="img2-disc">
-                        <h2>Flowers for any occasion</h2>
-                        <p>Shop hand-picked and throughtfully-arranged blooms florists near you. </p>
-                        <button>Send Flowers</button>
-                    </div>
-                </div>
-            </div>
-            <div class="bottom-two">
-                <div class="third-img">
-                    <div class="img3">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/alcohol_desktop.png">
-                    </div>
-                    <div class="img3-disc">
-                        <h2>Restock the minibar</h2>
-                        <p>Hosting a get-together or need a special cocktail ingredient? Get liquor, beer, mixers,
-                            champagne, and wine delivered fast.* </p>
-                        <button>Shop Alcohol</button>
-                        <p>*Must be 21+. Enjoy responsibly</p>
-                    </div>
-                </div>
-
-                <div class="fourth-img">
-                    <div class="img4">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/pet_supplies_desktop.png">
-                    </div>
-                    <div class="img4-disc">
-                        <h2>What your pets need, and want</h2>
-                        <p>Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet
-                            food, chew toys, and even costumes.</p>
-                        <button>Get Pet Suppplies</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="opportunity">
-            <h2>Unlocking opportunity for Dasher and businesses</h2>
-        </div>
-        <div class="last">
-            <div class="bottom-main">
-                <div class="become-dasher">
-                    <div class="dasher-disc">
-                        <h2>Sign up to dash and get paid</h2>
-                        <span class="text">Deliver with the #1 Food and Drink App in the U.S./ set your own schedule,
-                            and start earning cash anytime, anywhere.</span>
-                        <br>
-                        <button> Become a Dasher</button>
-                    </div>
-                    <div class="img">
-                        <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/become_a_dasher_desktop.png"
+                    <div class="address">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBhcmlhLWhpZGRlbj0idHJ1ZSIgY2xhc3M9InN0eWxlc19fU3R5bGVkSW5saW5lU3ZnLXNjLTEybDh2dmktMCBocFZ1aUQiPjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTAuNTI1NyAyMS4zNTE0TDEyIDIwTDEzLjQ3NDMgMjEuMzUxNEMxMy4wOTU1IDIxLjc2NDcgMTIuNTYwNiAyMiAxMiAyMkMxMS40Mzk0IDIyIDEwLjkwNDUgMjEuNzY0NyAxMC41MjU3IDIxLjM1MTRaTTEzLjI5NDkgMTguNDQ2M0MxMi41NDY0IDE5LjQwMzkgMTIgMjAgMTIgMjBDMTIgMjAgMTEuNDUzNSAxOS40MDM5IDEwLjcwNTEgMTguNDQ2M0M5LjA3OTE5IDE2LjM2NTggNi41IDEyLjU3OTIgNi41IDkuNDkyNDJDNi41IDYuNDU5MDQgOC45NjI0MyA0IDEyIDRDMTUuMDM3NiA0IDE3LjUgNi40NTkwNCAxNy41IDkuNDkyNDJDMTcuNSAxMi41NzkyIDE0LjkyMDggMTYuMzY1OCAxMy4yOTQ5IDE4LjQ0NjNaTTEzLjQ3NDMgMjEuMzUxNEMxMy40NzQzIDIxLjM1MTQgMTMuNDc0MyAyMS4zNTE0IDEyIDIwQzEwLjUyNTcgMjEuMzUxNCAxMC41MjU3IDIxLjM1MTQgMTAuNTI1NyAyMS4zNTE0TDEwLjUyMjcgMjEuMzQ4MkwxMC41MTc3IDIxLjM0MjdMMTAuNTAxOCAyMS4zMjUyTDEwLjQ0NzQgMjEuMjY0N0MxMC40MDE0IDIxLjIxMzMgMTAuMzM2MyAyMS4xMzk4IDEwLjI1NDggMjEuMDQ2MUMxMC4wOTE5IDIwLjg1ODkgOS44NjMwMSAyMC41OTAzIDkuNTkwMDQgMjAuMjU1M0M5LjA0NTg3IDE5LjU4NzMgOC4zMTc2NCAxOC42NDQxIDcuNTg1NjYgMTcuNTQ1NkM2Ljg1NzA1IDE2LjQ1MjIgNi4xMDE1MSAxNS4xNzA0IDUuNTIyNyAxMy44Mjc1QzQuOTUxNjkgMTIuNTAyNiA0LjUgMTAuOTk4NCA0LjUgOS40OTI0MkM0LjUgNS4zNTE4NyA3Ljg2MDQ2IDIgMTIgMkMxNi4xMzk1IDIgMTkuNSA1LjM1MTg3IDE5LjUgOS40OTI0MkMxOS41IDEwLjk5ODQgMTkuMDQ4MyAxMi41MDI2IDE4LjQ3NzMgMTMuODI3NUMxNy44OTg1IDE1LjE3MDQgMTcuMTQyOSAxNi40NTIyIDE2LjQxNDMgMTcuNTQ1NkMxNS42ODI0IDE4LjY0NDEgMTQuOTU0MSAxOS41ODczIDE0LjQxIDIwLjI1NTNDMTQuMTM3IDIwLjU5MDMgMTMuOTA4MSAyMC44NTg5IDEzLjc0NTIgMjEuMDQ2MUMxMy42NjM3IDIxLjEzOTggMTMuNTk4NiAyMS4yMTMzIDEzLjU1MjYgMjEuMjY0N0wxMy40OTgyIDIxLjMyNTJMMTMuNDgyMyAyMS4zNDI3TDEzLjQ3NzMgMjEuMzQ4MkwxMy40NzQzIDIxLjM1MTRaIiBmaWxsPSIjNzY3Njc2Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMiAxMUMxMi44Mjg0IDExIDEzLjUgMTAuMzI4NCAxMy41IDkuNUMxMy41IDguNjcxNTcgMTIuODI4NCA4IDEyIDhDMTEuMTcxNiA4IDEwLjUgOC42NzE1NyAxMC41IDkuNUMxMC41IDEwLjMyODQgMTEuMTcxNiAxMSAxMiAxMVpNMTIgMTNDMTMuOTMzIDEzIDE1LjUgMTEuNDMzIDE1LjUgOS41QzE1LjUgNy41NjcgMTMuOTMzIDYgMTIgNkMxMC4wNjcgNiA4LjUgNy41NjcgOC41IDkuNUM4LjUgMTEuNDMzIDEwLjA2NyAxMyAxMiAxM1oiIGZpbGw9IiM3Njc2NzYiLz48L3N2Zz4="
                             alt="">
+                        <input class="enter-addr" id="enter-addr" placeholder="Enter delivery address" type="text" />
+                        <!-- <input class="search" id ="searchbar-submit"type="button" value=""/> -->
+                        <button class="search"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
-                </div>
-            </div>
-            <div class="partner">
-                <div class="partner-cont">
-                    <div class="img">
-                        <img
-                            src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/work_with_doordash_desktop.png">
-                    </div>
-                    <div class="sec-head">
-                        <h2>Grow your Business with DoorDash</h2>
-                        <span>
-                            Businesses .large and small partner with DoorDash to reach new customers,increase order
-                            volume, and drive more sales.
-                        </span>
-                        <br>
-                        <button>Become a Partner</button>
+                    <div class="sav-addr">
+                        <button class="saved" id="saved"><i class="fa-regular fa-user"></i> Sign in for saved
+                            address</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="neighbor">
-        <div class="h2">
-        <h2>Get more from your neighborhood</h2>
-      </div>
-        <div class="heading">
-            <ul class="toph">
-                <li>Top Cities</li>
-                <li>Top Cuisines</li>
-                <li>Top Chains</li>
-            </ul>
+
+        <div class="content">
+            <section class="main">
+                <div class="top-main">
+                    <div class="first">
+                        <div class="picture">
+                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/ScootScoot.svg">
+                        </div>
+                        <div class="discript">
+                            <div class="info">
+                                <h2>Become a Dasher</h2>
+                                <h3> As a delive money,you'll make reliable money-working anytime,anywhere</h3>
+                            </div>
+                            <button class="btn">
+                                <span>Start earning</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="picture">
+                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/Storefront.svg">
+                        </div>
+                        <div class="discript">
+                            <div class="info">
+                                <h2>Become a Partner</h2>
+                                <h3>Grow your buisiness and reach new customers by partnering with us.</h3>
+                            </div>
+                            <button class="btn">
+                                <span>Sign up your store</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="first">
+                        <div class="picture">
+                            <img src="https://cdn.doordash.com/media/consumer/home/landing/new/iphone.svg" alt="">
+                        </div>
+                        <div class="discript">
+                            <div class="info">
+                                <h2>Get the best DoorDash experience</h2>
+                                <h3>Experience the best your neighborhood has to offer,all in one app.</h3>
+                            </div>
+                            <button class="btn">
+                                <span>Get the appp</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- second-main -->
+            <div class="main2">
+                <div class="top-main">
+                    <div class="find-rest">
+                        <div class="main-head">
+                            <h2>Everything you crave, delivered.</h2>
+                            <h5 class="sub">Your favorite local restaurants</h5>
+                            <span class="text">Get a slice of pizza or the whole pie delivered,or pick up house lo mein
+                                from
+                                the
+                                Chinese takeout spot you've been meaning to try.</span>
+                            <br>
+                            <button class="rest"> Find restaurants</button>
+                        </div>
+                        <div class="img">
+                            <img
+                                src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/download_the_app_desktop.png">
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+                <div class="mid-main">
+                    <div class="daspass">
+                        <div class="img">
+                            <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/dashpass_desktop.png"
+                                alt="">
+                        </div>
+                        <div class="sec-head">
+                            <h2>DashPass is delivery for less</h2>
+                            <span>
+                                Members get a $o delivery fee on DashPass orders. 5% back on pickup orders, and so much
+                                more.
+                                Plus,it's free for 30 days.
+                            </span>
+                            <br>
+                            <button>Get DashPass</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- wed -->
+
+                <div class="mid-img">
+                    <div class="img-content">
+                        <h2>Get grocery and convenience store essentials</h2>
+                        <h4>Grocery delivery,exactly how you want it.</h4>
+                        <p> Shop from home and fill your cart with fresh produce, frozen entrees, deli delights, and
+                            more.
+                        </p>
+                        <div class="button">
+                            <button class="grocery"> Shop Groceries</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main3">
+                    <div class="stor">
+                        <div class="shop">
+                            <div class="head">
+                                <h2>convenience stores at your doorstep.</h2>
+                                <span class="text">Stock up on snacks,household essentials, candy,or vitamins - all
+                                    delivered in
+                                    under an hour.</span>
+                                <br>
+                                <button> Shop now</button>
+                            </div>
+                            <div class="img">
+                                <img
+                                    src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/convenience_desktop.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="four-pic"> -->
+
+            <div class="gift-head">
+                <h2>Helping you with to-dos and gifting</h2>
+            </div>
+
+            <div class="gifting">
+                <div class="four">
+                    <div class="section-img">
+                        <div class="images">
+                            <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/package_pickup_desktop.png"
+                                alt="">
+                        </div>
+                        <div class="img-disc">
+                            <h2>Return package from home</h2>
+                            <p>Request a package with just a few taps and get your returns dropped off carriers like
+                                UPS,
+                                FedEx, and USPS. </p>
+                            <button>Try Package Pickup</button>
+                        </div>
+                    </div>
+                    <div class="section-img">
+                        <div class="images">
+                            <img
+                                src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/flowers_desktop.png">
+                        </div>
+                        <div class="img-disc">
+                            <h2>Flowers for any occasion</h2>
+                            <p>Shop hand-picked and throughtfully-arranged blooms florists near you.</p>
+                            <button class="second">Send Flowers</button>
+                        </div>
+                    </div>
+                    <div class="section-img">
+                        <div class="images">
+                            <img
+                                src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/alcohol_desktop.png">
+                        </div>
+                        <div class="img-disc">
+                            <h2>Restock the minibar</h2>
+                            <p>Hosting a get-together or need a special cocktail ingredient? Get liquor, beer, mixers,
+                                champagne, and wine delivered fast.* </p>
+                            <button class="third">Shop Alcohol</button>
+                            <p>*Must be 21+. Enjoy responsibly</p>
+
+                        </div>
+                    </div>
+                    <div class="section-img">
+                        <div class="images">
+                            <img
+                                src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/pet_supplies_desktop.png">
+                        </div>
+                        <div class="img-disc">
+                            <h2>What your pets need, and want</h2>
+                            <p>Finally, something cat people and dog people agree on — pet supplies delivery. Shop pet
+                                food, chew toys, and even costumes.</p>
+                            <button class="fourth">Get Pet Suppplies</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="bottom-part">
+                <div class="opportunity">
+                    <h2>Unlocking opportunity for Dasher and businesses</h2>
+                </div>
+                <div class="last">
+                    <div class="bottom-main">
+                        <div class="become-dasher">
+                            <div class="dasher-disc">
+                                <h2>Sign up to dash and get paid</h2>
+                                <span class="text">Deliver with the #1 Food and Drink App in the U.S./ set your own
+                                    schedule,
+                                    and start earning cash anytime, anywhere.</span>
+                                <br>
+                                <button> Become a Dasher</button>
+                            </div>
+                            <div class="img">
+                                <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/become_a_dasher_desktop.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner">
+                        <div class="partner-cont">
+                            <div class="img">
+                                <img
+                                    src="https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/work_with_doordash_desktop.png">
+                            </div>
+                            <div class="sec-head">
+                                <h2>Grow your Business with DoorDash</h2>
+                                <span>
+                                    Businesses .large and small partner with DoorDash to reach new customers,increase
+                                    order
+                                    volume, and drive more sales.
+                                </span>
+                                <br>
+                                <button>Become a Partner</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="neighbor">
+                    <h2>Get more from your neighborhood</h2>
+                    <div class="subhead">
+                        <div>
+                            <span class="city">Top Cities</span>
+                        </div>
+                        <div>
+                            <span>Top Cuisines</span>
+                        </div>
+                        <div>
+                            <span>Top Chains</span>
+                        </div>
+                    </div>
+
+
+                    <div class="sub-items">
+                   <ul>
+                            <li>New York</li>
+                            <li>Brooklyn</li>
+                            <li>Atlanta</li>
+                            <li>Los Angels</li>
+                            <li>San Diego </li>
+                            <li>Queens</li>
+                            <li>Las Vegas</li>                            <li>Toronto</li>
+                            <li>Atlanta</li>
+                            <li>Queens</li>
+                            <li>Vancouver, BC</li>
+                            <li>Chicago</li>
+                            <li>San Francisco</li>
+                            <li>Miami</li>
+                            <li>Houston</li>
+                            <li>Seattle</li>
+                            <li>San Antonio</li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
         </div>
-        <div class="list-items">
-            <ul class="first-row">
-                <li>Newn York</li>
-                <li></li>
-            </ul>
+        <div class="footer">           
+                <div class="categories">
+                    <h2>Popular Categories</h2>
+
+                    <ul>
+                        <li>Alcohol Delivery</li>
+                        <li>Back To School Delivery</li>
+                        <li>Beauty Stores</li>
+                        <li>Beauty Supply</li>
+                        <li>Catering Near Me</li>
+                        <li>Convenience Store Canada</li>
+                        <li>Dashmart Near Me</li> 
+                        <li>Deck The Doorstep</li>
+                        <li>Drugstores Canada</li>
+                        <li>Flower Delivery</li>
+                        <li>Grocery Delivery Canada</li>
+                        <li>Halloween</li>
+                        <li>Large Group Order</li>
+                        <li>Medicine Delivery</li>
+                        <li>Mothers Day</li>
+                        <li>Pet Store Near Me</li>
+                        <li>Retail Stores Near Me</li>
+                        <li>Seasonal Holidays</li>
+                        <li>Snap Ebt</li>
+                        <li>Valentines Day</li>
+                    </ul>
+                </div>
+
+
+            <div class="footer-bottom">
+                
+                        <ul>
+                            <h2>Get to Know Us</h2>
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Investors</li>
+                            <li>Company Blog</li>
+                            <li>Engineering Blog</li>
+                            <li>Merchant Blog</li>
+                            <li>Gift Cards</li>
+                            <li>Package Pickup</li>
+                            <li>Promotions</li>
+                            <li>Dasher Central</li>
+                            <li>Linkedln</li>
+                            <li>Glassdoor</li>
+                            <li>Accessibility</li>
+                            <li>Newsroom</li>
+
+                        </ul>
+                    </div>
+                   
+                        <ul>
+                             <h2>Let Us Help You</h2>
+                            <li>Account Details</li>
+                            <li>Order History</li>
+                            <li>Help</li>
+                        </ul>
+                   
+                       
+                        <ul>
+                             <h2>Doing Business</h2>
+                            <li>Become a Dasher</li>
+                            <li>List your Business</li>
+                            <li>Get Dashers for Deliveries</li>
+                            <li>Get DoorDash for Business</li>
+                        </ul>
+                  
+                <div class="footer-left">
+                    <img src="" alt="">
+                </div>
+            </div>
         </div>
+
     </div>
 
 </body>
